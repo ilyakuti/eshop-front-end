@@ -8,6 +8,7 @@
 :root {
     --width-height : 50px;
     --margin-left-right : 60px;
+    --text-color : #1a2a80;
 }
 
 .nav-bar-logo img{
@@ -29,6 +30,11 @@
     background-color: var(--text-color);
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
+    color: white;
+}
+
+.nav-bar-signup-signin-links a{
+    text-decoration: none;
     color: white;
 }
 
